@@ -49,7 +49,7 @@ Un simple CRUD en Laravel 10 para comprender sus fundamentos con un sencillo mon
 
     ```
     
-4. Instalar Sail
+4. Instalar Sail seleccionado PostgreSQL
 
     ``` bash
 
@@ -57,22 +57,30 @@ Un simple CRUD en Laravel 10 para comprender sus fundamentos con un sencillo mon
 
     ```
 
-5. Instalar dependencias con NPM
-
-    ``` bash
-
-    npm install && npm run dev
-
-    ```
-
-6. Desplegar el proyecto con Sail
+5. Desplegar el proyecto con Sail (en el directorio raiz)
 
     ``` bash
 
     sail up
 
     ```
-7. Si no hay conflicto en los puertos y la configuración [Acceder](http://localhost/)
+
+6. Instalar dependencias con NPM
+
+    ``` bash
+
+    npm install && npm run dev
+
+    ```
+7. Ejecutar migraciones (en el directorio raiz)
+
+    ``` bash
+
+    sail artisan migrate --seed
+
+    ```
+
+8. Si no hay conflicto en los puertos y la configuración [Acceder](http://localhost/)
 
 ### ToDo
 
