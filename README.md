@@ -39,8 +39,17 @@ Un simple CRUD en Laravel 10 para comprender sus fundamentos con un sencillo mon
     composer install
 
     ```
+
     
-3. Instalar Sail
+3. Configurar el archivo .env
+
+    ``` bash
+
+    cp .env.example .env
+
+    ```
+    
+4. Instalar Sail
 
     ``` bash
 
@@ -48,7 +57,7 @@ Un simple CRUD en Laravel 10 para comprender sus fundamentos con un sencillo mon
 
     ```
 
-4. Instalar dependencias con NPM
+5. Instalar dependencias con NPM
 
     ``` bash
 
@@ -56,16 +65,14 @@ Un simple CRUD en Laravel 10 para comprender sus fundamentos con un sencillo mon
 
     ```
 
-5. Desplegar el proyecto con Sail
+6. Desplegar el proyecto con Sail
 
     ``` bash
 
     sail up
 
     ```
-6. Si no hay conflicto en los puertos y la configuración
-
-[Acceder](http://localhost/)
+7. Si no hay conflicto en los puertos y la configuración [Acceder](http://localhost/)
 
 ### ToDo
 
