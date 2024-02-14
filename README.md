@@ -39,7 +39,6 @@ Un simple CRUD en Laravel 10 para comprender sus fundamentos con un sencillo mon
     composer install
 
     ```
-
     
 3. Configurar el archivo .env
 
@@ -87,4 +86,8 @@ Un simple CRUD en Laravel 10 para comprender sus fundamentos con un sencillo mon
 * Tests Unitarios
 * Tests en Postman
 * Filtros
+* Ordenamientos
 * Paginación
+* Form Request Validation
+* Relacionar pacientes con el usuario que lo cargó
+* Relacionar 
