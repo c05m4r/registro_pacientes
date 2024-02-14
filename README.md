@@ -90,3 +90,5 @@ Un simple CRUD en Laravel 10 para comprender sus fundamentos con un sencillo mon
 * Form Request Validation
 * Relacionar pacientes con el usuario que lo cargó pero queda visible para todos
 * Logout
+* Notificaciones
+* Manejo de errores
